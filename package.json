@@ -1,0 +1,22 @@
+{
+  "name": "crudnodejs",
+  "version": "1.0.0",
+  "description": "This is a sample Rest CRUD API project using Node.js, Express, Pug,  MongoDb for database and Mocha & Chai for testing",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olcay Arpac",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3",
+    "mongoose-unique-validator": "^3.0.0",
+    "save": "^2.4.0",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
