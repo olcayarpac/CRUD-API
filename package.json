@@ -9,14 +9,20 @@
   "author": "Olcay Arpac",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.17.3",
+    "express-session": "^1.17.2",
     "mongoose": "^6.2.3",
     "mongoose-unique-validator": "^3.0.0",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "q": "^1.5.1",
     "save": "^2.4.0",
     "swagger-jsdoc": "^6.1.0",
     "swagger-ui-express": "^4.3.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "pug": "^3.0.2"
   }
 }
