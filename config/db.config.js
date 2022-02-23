@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
 
 // uri from mongo atlas cloud db
-var uri = "mongodb+srv://olcayarpac:olcay98.A@crud-api.0dufv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+var uri = "mongodb+srv://olcayarpac:WrNktEeP1IwhBWgx@crud-api.0dufv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 // Declare a variable named option and assign optional settings
 const options = {
