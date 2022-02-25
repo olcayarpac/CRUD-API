@@ -111,3 +111,6 @@ passport.use('local-signin', new LocalStrategy(
     })(req, res, next);
   
   });
+
+
+  module.exports = app
